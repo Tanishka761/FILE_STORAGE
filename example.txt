@@ -1,0 +1,5 @@
+Hello, this is a test file for Firebase upload!
+url: str = os.getenv("https://qusfgwehedurrfrmntgu.supabase.co")
+key: str = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF1c2Znd2VoZWR1cnJmcm1udGd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU4MzE0MDUsImV4cCI6MjA2MTQwNzQwNX0._IWpu5_CWeulipKTERJyPMuoYyLQNr0w0GDr3pPReSU")
+supabase: Client = create_client(url, key)
+C:\new>"C:\Users\user\AppData\Roaming\Python\Python313\Scripts\streamlit.exe" run auth.py
